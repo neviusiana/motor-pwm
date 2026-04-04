@@ -534,7 +534,7 @@ an oscilloscope and power supply, shown in @i:breadboard2. As suspected, the fre
 the wrong kind of batteries, as the frequency was now #qty(5.4, "kHz") using the
 power supply. However, this is still not the expected frequency, so the timing resistors
 of the astable multivibrator stage had to be changed. This is probably due to the
-timing capacitors, which had a tolerance of #qty("+-10", "%"). The duty cycle was
+timing capacitors, which have tolerances of #qty("+-10", "%"). The duty cycle was
 also not in the expected range; the maximum potentiometer resistance was causing
 double-triggering issues, so the timing resistors of the monostable multivibrator
 stage also had to be changed. Again, this is probably due to the #qty("+-5", "%")
@@ -603,6 +603,7 @@ I can think of multiple different conclusions for this project:
 	but incorrect way.
 + Practice first before trying to do something important for the first time.
 + Cramming something using the wrong or broken tools will only lead to suffering.
++ Have a plan for when the shop doesn't have the components you need.
 + If you can't test the components in the shop, buy two or more for redundancy.
 + Theoretical values will differ from simulation values, which will differ from
 	real-life values.
