@@ -24,9 +24,10 @@
 !/assets/fulltheoretical.json
 !/assets/fulltheoretical.png
 !/assets/fulltheoretical.svg
-!/assets/breadboard.jpg
+!/assets/breadboard1.jpg
+!/assets/breadboard2.jpg
+!/assets/soldered.jpg
 
 !/ltspice/
 !/ltspice/theoretical.asc
-!/ltspice/partly.asc
-!/ltspice/completely.asc
+!/ltspice/standardized.asc

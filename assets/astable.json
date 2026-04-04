@@ -1,5 +1,6 @@
 {
     "version": "0.1",
+    "tikzSettings": {},
     "components": [
         {
             "type": "path",
@@ -14,8 +15,7 @@
                 }
             ],
             "label": {
-                "value": "R_\\text{AC1}",
-                "distance": "0.12cm"
+                "value": "R_\\text{AC1}"
             },
             "id": "american resistor"
         },
@@ -33,8 +33,7 @@
             ],
             "label": {
                 "value": "R_\\text{AB1}",
-                "otherSide": true,
-                "distance": "0.12cm"
+                "otherSide": true
             },
             "id": "american resistor"
         },
@@ -51,8 +50,7 @@
                 }
             ],
             "label": {
-                "value": "R_\\text{AB2}",
-                "distance": "0.12cm"
+                "value": "R_\\text{AB2}"
             },
             "id": "american resistor"
         },
@@ -69,8 +67,7 @@
                 }
             ],
             "label": {
-                "value": "R_\\text{AC2}",
-                "distance": "0.12cm"
+                "value": "R_\\text{AC2}"
             },
             "id": "american resistor"
         },
@@ -79,8 +76,7 @@
             "label": {
                 "value": "Q_\\text{A2}",
                 "anchor": "default",
-                "position": "default",
-                "distance": "0.12cm"
+                "position": "default"
             },
             "position": {
                 "x": -132.284,
@@ -93,8 +89,7 @@
             "label": {
                 "value": "Q_\\text{A1}",
                 "anchor": "default",
-                "position": "default",
-                "distance": "0.12cm"
+                "position": "default"
             },
             "position": {
                 "x": -302.362,
@@ -159,8 +154,7 @@
             ],
             "label": {
                 "value": "C_\\text{A1}",
-                "otherSide": true,
-                "distance": "0.12cm"
+                "otherSide": true
             },
             "id": "capacitor"
         },
@@ -178,8 +172,7 @@
             ],
             "label": {
                 "value": "C_\\text{A2}",
-                "otherSide": true,
-                "distance": "0.12cm"
+                "otherSide": true
             },
             "id": "capacitor"
         },
@@ -285,8 +278,7 @@
             "label": {
                 "value": "V_\\text{CC}",
                 "anchor": "default",
-                "position": "default",
-                "distance": "0.12cm"
+                "position": "default"
             },
             "position": {
                 "x": -302.362,
@@ -299,8 +291,7 @@
             "label": {
                 "value": "V_\\text{CC}",
                 "anchor": "default",
-                "position": "default",
-                "distance": "0.12cm"
+                "position": "default"
             },
             "position": {
                 "x": -245.669,
@@ -313,8 +304,7 @@
             "label": {
                 "value": "V_\\text{CC}",
                 "anchor": "default",
-                "position": "default",
-                "distance": "0.12cm"
+                "position": "default"
             },
             "position": {
                 "x": -188.976,
@@ -327,47 +317,13 @@
             "label": {
                 "value": "V_\\text{CC}",
                 "anchor": "default",
-                "position": "default",
-                "distance": "0.12cm"
+                "position": "default"
             },
             "position": {
                 "x": -132.284,
                 "y": -302.362
             },
             "id": "vcc"
-        },
-        {
-            "type": "wire",
-            "points": [
-                {
-                    "x": -132.284,
-                    "y": -226.772
-                },
-                {
-                    "x": -103.937,
-                    "y": -226.772
-                }
-            ],
-            "stroke": {
-                "width": "0.4pt"
-            },
-            "directions": [
-                "-|"
-            ]
-        },
-        {
-            "type": "node",
-            "label": {
-                "value": "V_\\text{out, A}",
-                "anchor": "default",
-                "position": "east",
-                "distance": "0.12cm"
-            },
-            "position": {
-                "x": -103.937,
-                "y": -226.772
-            },
-            "id": "ocirc"
         },
         {
             "type": "wire",
