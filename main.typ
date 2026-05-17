@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright (C) Nile Jocson <seiversiana@gmail.com>
+// SPDX-FileCopyrightText: Copyright (C) Nile Jocson <neviusiana@gmail.com>
 // SPDX-License-Identifier: MPL-2.0
 
 #import "@preview/charged-ieee:0.1.4": ieee
@@ -65,7 +65,7 @@
 
 = Source
 The Git repository for this project is located at
-https://github.com/seiversiana/motor-pwm. Included are the license, source code,
+https://github.com/neviusiana/motor-pwm. Included are the license, source code,
 image files, and LTSpice files.
 
 
